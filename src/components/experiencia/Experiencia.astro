@@ -1,0 +1,59 @@
+---
+import Bento from './Bento.astro';
+---
+
+<section>
+    <h2>&lt;!-- EXPERIENCIA --&gt</h2>
+    <div class="experiencia-bento">
+        <span></span>
+        <Bento size="big">
+            <p>Aunque todavía no tengo experiencia profesional, solo tengo 15 años, he colaborado con mi club de atletismo desarrollandoles una página web más moderna y útil, la cual puedes ver en la sección de proyectos. </p>
+        </Bento>
+        <Bento size="small">
+            <p>A finales de 2022, empecé a investigar cómo se crean las webs y probé WordPress, pero no me convenció demasiado. </p>
+        </Bento>
+        <Bento size="small">
+            <p>En el verano de 2023, participé en el Menorca Summer Camp de Leagues of Code, donde aprendí HTML y CSS, ¡y ahí fue cuando realmente me enganché a crear mis propias webs!</p>
+        </Bento>
+        <Bento size="big">
+            <p>Desde entoces, he continuado y sigo aprendiendo por mi cuenta, gracias a los cursos de @soydalto y @midudev.</p>
+        </Bento>
+    </div>
+</section>
+
+<style>
+    section {
+        width: 60%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding-top: 80px;
+
+        position: relative;
+    }
+
+    h2 {
+        margin-bottom: 50px;
+        font-size: 1.2rem;
+    }
+
+    span {
+        width: 270px;
+        height: 270px;
+        background-color: #ad2;
+        filter: opacity(.3);
+        box-shadow: 0 0 70px 70px #ad2;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 150px;
+        margin: auto;
+        border-radius: 50%;
+    }
+
+    .experiencia-bento {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        gap: 15px;
+    }
+</style>

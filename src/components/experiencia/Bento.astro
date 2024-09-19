@@ -1,0 +1,31 @@
+---
+interface Props {
+    size: "small" | "big";
+}
+
+const { size } = Astro.props;
+---
+
+<div class={`bento bento-${size}`} >
+    <slot />
+</div>
+
+<style>
+    .bento {
+        height: 150px;
+        background-color: #2138;
+        backdrop-filter: blur(20px);
+        border-radius: 15px;
+        padding: 20px;
+        color: #fffa;
+    }
+
+    .bento-small {
+        grid-column: span 4;
+    }
+
+    .bento-big {
+        grid-column: span 6;
+    }
+
+</style>

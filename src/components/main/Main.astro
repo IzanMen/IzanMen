@@ -1,0 +1,65 @@
+---
+import Social from '../Social.astro';
+---
+
+<main>
+    <div class="main-image">
+        <img src="../../../public/izan.webp" alt="main">
+    </div>
+    <div class="main-content">
+        <h1>¡Hola! Soy Izan Sánchez. /></h1>
+        <p>Tengo 14 años y me apasiona el desarrollo web.  Siempre estoy buscando nuevas formas de mejorar y ampliar mis conocimientos, para así, poder aplicarlos en nuevos proyectos.</p>  
+        <div class="social-icons">
+            <Social icon="GitHub" link='https://github.com/IzanMen/'/>
+            <Social icon="Instagram" link='https://www.instagram.com/loesport'/>
+        </div>
+    </div>
+</main>
+
+<style>
+    main {
+        padding-top: 30px;
+        width: 60%;
+        height: fit-content;
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+
+    img {
+        width: 250px;
+        z-index: 10;
+    }
+
+    .main-image {
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        z-index: 10;
+        margin-bottom: 50px;
+    }
+
+    .main-image::after {
+        content: "";
+        display: inline-block;
+        background-color: #fff;
+        position: absolute;
+        z-index: -1;
+        bottom: 5px;
+        left: -2px;
+        width: 255px;
+        height: 250px;
+        border-radius: 50%;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 10px;
+    }
+</style>
