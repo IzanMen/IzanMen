@@ -2,7 +2,7 @@
 import Bento from './Bento.astro';
 ---
 
-<section>
+<section id="experiencia">
     <h2>&lt;!-- EXPERIENCIA --&gt</h2>
     <div class="experiencia-bento">
         <span></span>
@@ -40,15 +40,33 @@ import Bento from './Bento.astro';
         width: 270px;
         height: 270px;
         background-color: #ad2;
-        filter: opacity(.3);
+        filter: opacity(.19);
         box-shadow: 0 0 70px 70px #ad2;
-
         position: absolute;
         left: 0;
         right: 0;
-        top: 150px;
+        top: 180px;
         margin: auto;
         border-radius: 50%;
+        animation: electrify 3s infinite;
+    }
+
+    @keyframes electrify {
+        0% {
+            background-color: #ad2;
+            transform: scale(1);
+            box-shadow: 0 0 70px 70px #ad2, 0 0 20px 10px #ff0;
+        }
+        50% {
+            background-color: #ff0;
+            transform: scale(1.1);
+            box-shadow: 0 0 80px 80px #ff0, 0 0 30px 15px #fff700;
+        }
+        100% {
+            background-color: #ad2;
+            transform: scale(1);
+            box-shadow: 0 0 70px 70px #ad2, 0 0 20px 10px #ff0;
+        }
     }
 
     .experiencia-bento {
