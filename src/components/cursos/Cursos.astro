@@ -1,13 +1,25 @@
 ---
-
+import Curso from './Curso.astro';
 ---
 
 <section id="cursos">
     <h2>&lt;!-- CURSOS --&gt;</h2>
-
+    <p>Los siguientes materiales son cursos que me han ayudado a conseguir los conocimientos adquiridos hasta ahora.</p>
+    <div class="cursos-content">
+        <Curso num="1" autor="soydalto" img="curso-html-css.png" link='https://www.youtube.com/watch?v=ELSm-G201Ls'/>
+        <Curso num="2" autor="soydalto" img="curso-js-cero.png" link='https://www.youtube.com/watch?v=z95mZVUcJ-E&t=8s'/>
+        <Curso num="3" autor="soydalto" img="curso-js-junior.png" link='https://www.youtube.com/watch?v=xOinGb2MZSk&t=3173s'/>
+        <Curso num="4" autor="midulive" img="curso-astro.png" link="https://www.youtube.com/watch?v=RB5tR_nqUEw&t=1408s"/>
+        <Curso num="5" autor="soydalto" img="curso-git.png" link='https://www.youtube.com/watch?v=9ZJ-K-zk_Go&t=1529s' />
+    </div>
 </section>
 
 <style>
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
     section {
         width: 60%;
         max-width: 800px;
@@ -15,5 +27,13 @@
         padding-top: 100px;
 
         position: relative;
+    }
+
+    .cursos-content {
+        margin-top: 40px;
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 </style>

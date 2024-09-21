@@ -1,0 +1,59 @@
+---
+
+interface Props {
+    num: string;
+    autor: string;
+    img: string;
+    link: string;
+}
+
+const { num, autor, img, link } = Astro.props;
+
+---
+
+<div class="curso">
+    <span>{num}</span>
+    <div class="curso-content">
+        <a href={`https://www.youtube.com/${autor}`} target="_blank" rel="noopener noreferrer">@{autor}</a>
+        <a href={link} target="_blank" rel="noopener noreferrer">
+            <img src={img} alt="curso">
+        </a>
+    </div>
+</div>
+
+<style>
+
+    .curso {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 60px;
+
+        & span {
+            height: 35px;
+            width: 35px;
+            border-radius: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: #fff;
+            color: #000e;
+            font-size: 1.4rem;
+            font-weight: 700;
+            font-family: 'Itim', cursive;
+        }
+    }
+
+    .curso-content {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+
+        & a {
+            text-decoration: none;
+            color: #aaa;
+            font-size: .8rem;
+        }
+    }
+
+</style>

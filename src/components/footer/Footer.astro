@@ -1,0 +1,45 @@
+---
+import Social from '../Social.astro';
+---
+
+<footer>
+    <p>© 2024 Izan Sánchez</p>
+    <Social icon="GitHub-white" link='https://github.com/IzanMen/'/>
+    <ul>
+        <a href="#experiencia">EXPERIENCIA</a>
+        <a href="#habilidades">HABILIDADES</a>
+        <a href="#proyectos">PROYECTOS</a>
+        <a href="#cursos">CURSOS</a>
+    </ul>
+</footer>
+
+<style>
+
+    footer {
+        width: 60%;
+        max-width: 800px;
+        margin: 0 auto;
+        font-size: .8rem;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 100px;
+        margin-top: 35px;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+
+        & a {
+            font-family: 'Inter', sans-serif;
+            text-decoration: none;
+            color: #fff;
+            font-size: .8rem;
+        }
+    }
+
+</style>
