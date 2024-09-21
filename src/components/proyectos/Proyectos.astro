@@ -4,22 +4,24 @@ import Proyecto from './Proyecto.astro';
 
 <section id="proyectos">
     <h2>&lt;!-- PROYECTOS --&gt;</h2>
-    <Proyecto 
-        img="loesport-captura.png"
-        github="https://github.com/IzanMen/loesport"   
-        website="https://loesport.vercel.app" 
-        technologies="HTML, CSS, JS"
-    >
-        Uno de mis proyectos más destacados ha sido la modernización de la página web de mi club de atletismo, que anteriormente estaba desactualizada. Este proyecto me permitió aprender a comprometerme con una tarea y a esforzarme para dar lo mejor de mí. 
-    </Proyecto>
-    <Proyecto 
-        img="porfolio-captura.png"
-        github="https://github.com/IzanMen/IzanMen"   
-        website="https://izanmen-dev.vercel.app" 
-        technologies="HTML, CSS, JS, ASTRO"
-    >
-        Uno de mis proyectos más destacados ha sido la modernización de la página web de mi club de atletismo, que anteriormente estaba desactualizada. Este proyecto me permitió aprender a comprometerme con una tarea y a esforzarme para dar lo mejor de mí. 
-    </Proyecto>
+    <div class="proyectos-content">
+        <Proyecto 
+            img="loesport-captura.png"
+            github="https://github.com/IzanMen/loesport"   
+            website="https://loesport.vercel.app" 
+            technologies="HTML,CSS,JS"
+        >
+            <p>Uno de mis proyectos más destacados ha sido la modernización de la página web de mi club de atletismo. Este proyecto me permitió aprender a comprometerme con una tarea y a esforzarme para dar lo mejor de mí.</p>
+        </Proyecto>
+        <Proyecto 
+            img="porfolio-captura.png"
+            github="https://github.com/IzanMen/IzanMen"   
+            website="https://izanmen-dev.vercel.app" 
+            technologies="HTML,CSS,JS,ASTRO"
+        >
+            <p>Además, he desarrollado este mismo portafolio, aplicando y consolidando mis conocimientos actuales en desarrollo web para mostrar mis habilidades y experiencias.</p>
+        </Proyecto>
+    </div>
 </section>
 
 <style>
@@ -29,5 +31,19 @@ import Proyecto from './Proyecto.astro';
         margin: 0 auto;
 
         color: #000;
+    }
+
+    .proyectos-content {
+        margin-top: 25px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        & p {
+            line-height: 1rem;
+            font-size: .9rem;
+            font-weight: 500;
+        }
     }
 </style>

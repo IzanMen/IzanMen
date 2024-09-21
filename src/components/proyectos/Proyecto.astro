@@ -20,9 +20,46 @@ const { img, github, website, technologies } = Astro.props;
             <Social icon="GitHub-black" link={github} />
             <Social icon="Website" link={website} />
         </div>
+        <div class="proyecto-content__technologies">
+            { technologies.split(',').map(tecnologia => <Tecnologia tecnologia={tecnologia} />) }
+        </div>
     </div>
 </div>
 
 <style>
+    .proyecto {
+        background-color: #ccc;
+        border-radius: 20px;
+
+        display: flex;
+        height: 150px;
+
+        box-shadow: 8px 8px 10px 2px #777;
+
+        & img {
+            height: 100%;
+        }
+    }
+
+    .proyecto-content {
+        display: flex;
+        flex-direction: column;
+
+        padding: 15px;
+        padding-right: 20px;
+    }
+
+    .proyecto-content__social {
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .proyecto-content__technologies {
+        height: 100%;
+        display: flex;
+        gap: 5px;
+    }
 
 </style>
