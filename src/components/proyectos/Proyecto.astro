@@ -1,0 +1,28 @@
+---
+import Social from '../Social.astro';
+import Tecnologia from './Tecnologia.astro';
+
+interface Props {
+    img: string;
+    github: string;
+    website: string;
+    technologies: string;
+}
+
+const { img, github, website, technologies } = Astro.props;
+---
+
+<div class="proyecto">
+    <img src={`${img}`} alt="proyecto">
+    <div class="proyecto-content">
+        <slot />
+        <div class="proyecto-content__social">
+            <Social icon="GitHub-black" link={github} />
+            <Social icon="Website" link={website} />
+        </div>
+    </div>
+</div>
+
+<style>
+
+</style>

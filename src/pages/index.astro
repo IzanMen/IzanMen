@@ -4,6 +4,7 @@ import Header from '../components/header/Header.astro';
 import Main from '../components/main/Main.astro';
 import Experiencia from '../components/experiencia/Experiencia.astro';
 import Habilidades from '../components/habilidades/Habilidades.astro';
+import Proyectos from '../components/proyectos/Proyectos.astro';
 ---
 
 <Layout>
@@ -11,8 +12,19 @@ import Habilidades from '../components/habilidades/Habilidades.astro';
 	<Main />
 	<Experiencia />
 	<Habilidades />
+	<div class="proyectos-container">
+		<Proyectos />
+	</div>
 </Layout>
 
 <style>
 	
+	.proyectos-container {
+		width: 100%;
+		height: fit-content;
+		margin-top: 100px;
+		background-color: #fff;
+		padding: 100px 0;
+	}
+
 </style>
