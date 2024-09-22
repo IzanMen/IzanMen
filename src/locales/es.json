@@ -1,0 +1,20 @@
+{
+    "header": {
+        "experiencia": "EXPERIENCIA",
+        "habilidades": "HABILIDADES",
+        "proyectos": "PROYECTOS",
+        "cursos": "CURSOS",
+        "idioma": "ES"
+    },
+    "main": {
+        "titulo": "¡Hola! Soy Izan Sánchez. />",
+        "descripcion": "Tengo 14 años y me apasiona el desarrollo web. Siempre estoy buscando nuevas formas de mejorar y ampliar mis conocimientos, para así, poder aplicarlos en nuevos proyectos."
+    },
+    "experiencia": {
+        "titulo": "<!-- EXPERIENCIA -->",
+        "descripcion1": "Aunque todavía no tengo experiencia profesional, solo tengo 15 años, he colaborado con mi club de atletismo desarrollandoles una página web más moderna y útil, la cual puedes ver en la sección de proyectos.",
+        "descripcion2": "A finales de 2022, empecé a investigar cómo se crean las webs y probé WordPress, pero no me convenció demasiado.",
+        "descripcion3": "En el verano de 2023, participé en el Menorca Summer Camp de Leagues of Code, donde aprendí HTML y CSS.",
+        "descripcion4": "Desde entoces, he continuado y sigo aprendiendo por mi cuenta, gracias a los cursos de @soydalto y @midudev."
+    }
+}

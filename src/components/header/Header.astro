@@ -2,26 +2,31 @@
 import Idioma from './Idioma.astro';
 import Modo from './Modo.astro';
 
+export interface props {
+	t: any;
+}
+
+const { t } = Astro.props;
 ---
 
 <header>
 	<ul class="nav">
 		<li class="nav-item">
-			<a href="#experiencia">EXPERIENCIA</a>
+			<a href="#experiencia">{t.header.experiencia}</a>
 		</li>
 		<li class="nav-item">
-			<a href="#habilidades">HABILIDADES</a>
+			<a href="#habilidades">{t.header.habilidades}</a>
 		</li>
 		<li class="nav-item">
-			<a href="#proyectos">PROYECTOS</a>
+			<a href="#proyectos">{t.header.proyectos}</a>
 		</li>
 		<li class="nav-item">
-			<a href="#cursos">CURSOS</a>
+			<a href="#cursos">{t.header.cursos}</a>
 		</li>
 	</ul>
 	<div class="nav-seleccion"> 
-		<Idioma />
-		<Modo />
+		<Idioma t={t}/>
+		<Modo t={t}/>
 	</div>
 </header>
 

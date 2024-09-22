@@ -1,13 +1,19 @@
 ---
 import Bento from './Bento.astro';
+
+export interface Props {
+    t: any;
+}
+
+const { t } = Astro.props;
 ---
 
 <section id="experiencia">
-    <h2>&lt;!-- EXPERIENCIA --&gt</h2>
+    <h2>{t.experiencia.titulo}</h2>
     <div class="experiencia-bento">
         <span></span>
         <Bento size="big">
-            <p>Aunque todavía no tengo experiencia profesional (solo tengo 15 años), he colaborado con mi club de atletismo desarrollándoles una página web más moderna y útil, la cual puedes ver en la sección de proyectos.</p>
+            <p>{t.experiencia.descripcion1}</p>
         </Bento>
         <Bento size="small">
             <p>A finales de 2022, empecé a investigar cómo se crean las webs y probé WordPress, pero no me convenció demasiado. </p>

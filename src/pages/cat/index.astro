@@ -1,0 +1,40 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/header/Header.astro';
+import Main from '../../components/main/Main.astro';
+import Experiencia from '../../components/experiencia/Experiencia.astro';
+import Habilidades from '../../components/habilidades/Habilidades.astro';
+import Proyectos from '../../components/proyectos/Proyectos.astro';
+import Cursos from '../../components/cursos/Cursos.astro';
+import Footer from '../../components/footer/Footer.astro';
+
+import { getTranslations } from '../../utils/i18n';
+
+const locale = 'ca';
+const t = getTranslations(locale);
+---
+
+<Layout>
+	<Header t={t}/>	
+	<Main t={t}/>
+	<Experiencia t={t}/>
+	<Habilidades t={t}/>
+	<div class="proyectos-container">
+		<Proyectos t={t}/>
+	</div>
+	<Cursos t={t}/>
+	<Footer t={t}/>
+</Layout>
+
+<style>
+	
+	.proyectos-container {
+		width: 100%;
+		height: fit-content;
+		margin-top: 100px;
+		background-color: #fff;
+		padding: 100px 0;
+		border-radius: 30px;
+	}
+
+</style>
