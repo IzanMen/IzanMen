@@ -1,10 +1,16 @@
 ---
 import Curso from './Curso.astro';
+
+export interface Props {
+    t: any;
+}
+
+const { t } = Astro.props;
 ---
 
 <section id="cursos">
-    <h2>&lt;!-- CURSOS --&gt;</h2>
-    <p>Los siguientes materiales son cursos que me han ayudado a conseguir los conocimientos adquiridos hasta ahora.</p>
+    <h2>{t.courses.title}</h2>
+    <p>{t.courses.description}</p>
     <div class="cursos-content">
         <Curso num="1" autor="soydalto" img="curso-html-css.png" link='https://www.youtube.com/watch?v=ELSm-G201Ls'/>
         <Curso num="2" autor="soydalto" img="curso-js-cero.png" link='https://www.youtube.com/watch?v=z95mZVUcJ-E&t=8s'/>

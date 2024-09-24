@@ -1,15 +1,21 @@
 ---
 import Social from '../Social.astro';
+
+export interface Props {
+    t: any;
+}
+
+const { t } = Astro.props;
 ---
 
 <footer>
     <p>© 2024 Izan Sánchez</p>
     <Social icon="GitHub-white" link='https://github.com/IzanMen/'/>
     <ul>
-        <a href="#experiencia">EXPERIENCIA</a>
-        <a href="#habilidades">HABILIDADES</a>
-        <a href="#proyectos">PROYECTOS</a>
-        <a href="#cursos">CURSOS</a>
+        <a href="#experiencia">{t.header.experience}</a>
+        <a href="#habilidades">{t.header.skills}</a>
+        <a href="#proyectos">{t.header.projects}</a>
+        <a href="#cursos">{t.header.courses}</a>
     </ul>
 </footer>
 

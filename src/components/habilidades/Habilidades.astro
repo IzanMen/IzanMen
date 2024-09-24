@@ -1,10 +1,16 @@
 ---
 import Habilidad from './Habilidad.astro';
+
+export interface Props {
+    t: any;
+}
+
+const { t } = Astro.props;
 ---
 
 <section id="habilidades">
-    <h2>&lt!-- HABILIDADES --&gt</h2>
-    <p>Hasta ahora, he adquirido los siguientes conocimientos gracias a los cursos de @soydalto y de @midudev. Mi objetivo es seguir aprendiendo para convertirme en un desarrollador web full-stack.</p>
+    <h2>{t.skills.title}</h2>
+    <p>{t.skills.description}</p>
     <div class="habilidades-content">
         <div class="habilidades-item">
             <Habilidad habilidad="HTML" />

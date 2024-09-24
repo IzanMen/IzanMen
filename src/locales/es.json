@@ -1,20 +1,38 @@
 {
     "header": {
-        "experiencia": "EXPERIENCIA",
-        "habilidades": "HABILIDADES",
-        "proyectos": "PROYECTOS",
-        "cursos": "CURSOS",
-        "idioma": "ES"
+        "experience": "EXPERIENCIA",
+        "skills": "HABILIDADES",
+        "projects": "PROYECTOS",
+        "courses": "CURSOS",
+        "language": "ES"
     },
+
     "main": {
-        "titulo": "¡Hola! Soy Izan Sánchez. />",
-        "descripcion": "Tengo 14 años y me apasiona el desarrollo web. Siempre estoy buscando nuevas formas de mejorar y ampliar mis conocimientos, para así, poder aplicarlos en nuevos proyectos."
+        "title": "¡Hola! Soy Izan Sánchez. />",
+        "description": "Tengo 14 años y me apasiona el desarrollo web. Siempre estoy buscando nuevas formas de mejorar y ampliar mis conocimientos, para así, poder aplicarlos en nuevos proyectos."
     },
-    "experiencia": {
-        "titulo": "<!-- EXPERIENCIA -->",
-        "descripcion1": "Aunque todavía no tengo experiencia profesional, solo tengo 15 años, he colaborado con mi club de atletismo desarrollandoles una página web más moderna y útil, la cual puedes ver en la sección de proyectos.",
-        "descripcion2": "A finales de 2022, empecé a investigar cómo se crean las webs y probé WordPress, pero no me convenció demasiado.",
-        "descripcion3": "En el verano de 2023, participé en el Menorca Summer Camp de Leagues of Code, donde aprendí HTML y CSS.",
-        "descripcion4": "Desde entoces, he continuado y sigo aprendiendo por mi cuenta, gracias a los cursos de @soydalto y @midudev."
+
+    "experience": {
+        "title": "<!-- EXPERIENCIA -->",
+        "description1": "Aunque todavía no tengo experiencia profesional, solo tengo 15 años, he colaborado con mi club de atletismo desarrollandoles una página web más moderna y útil, la cual puedes ver en la sección de proyectos.",
+        "description2": "A finales de 2022, empecé a investigar cómo se crean las webs y probé WordPress, pero no me convenció demasiado.",
+        "description3": "En el verano de 2023, participé en el Menorca Summer Camp de Leagues of Code, donde aprendí HTML y CSS.",
+        "description4": "Desde entoces, he continuado y sigo aprendiendo por mi cuenta, gracias a los cursos de @soydalto y @midudev."
+    },
+
+    "skills": {
+        "title": "<!-- HABILIDADES -->",
+        "description": "Hasta ahora, he adquirido los siguientes conocimientos gracias a los cursos de @soydalto y de @midudev. Mi objetivo es seguir aprendiendo para convertirme en un desarrollador web full-stack."
+    },
+
+    "projects": {
+        "title": "<!-- PROYECTOS -->",
+        "description1": "Uno de mis proyectos más destacados ha sido la modernización de la página web de mi club de atletismo. Este proyecto me permitió aprender a comprometerme con una tarea y a esforzarme para dar lo mejor de mí.",
+        "description2": "Además, he desarrollado este mismo portafolio, aplicando y consolidando mis conocimientos actuales en desarrollo web para mostrar mis habilidades y experiencias."
+    },
+
+    "courses": {
+        "title": "<!-- CURSOS -->",
+        "description": "Los siguientes materiales son cursos que me han ayudado a conseguir los conocimientos adquiridos hasta ahora."
     }
 }
