@@ -1,8 +1,38 @@
 {
     "header": {
-        "experiencia": "EXPERIÈNCIA",
-        "habilidades": "HABILITATS",
-        "proyectos": "PROJECTES",
-        "cursos": "CURSOS"
+        "experience": "EXPERIÈNCIA",
+        "skills": "HABILITATS",
+        "projects": "PROJECTES",
+        "courses": "CURSOS",
+        "language": "CAT"
+    },
+
+    "main": {
+        "title": "Hola! Soc n'Izan Sánchez. />",
+        "description": "Tinc 14 anys i em fascina el desenvolupament web. Sempre estic buscant noves maneres de millorar i ampliar els meus coneixements, per així poder aplicar-los en nous projectes."
+    },
+
+    "experience": {
+        "title": "<!-- EXPERIÈNCIA -->",
+        "description1": "Encara que no tinc experiència professional, només tinc 15 anys, he col·laborat amb el meu club d'atletisme desenvolupant-los una pàgina web més moderna i útil, la qual pots veure a la secció de projectes.",
+        "description2": "A finals del 2022, vaig començar a investigar com es creen les webs i vaig provar WordPress, però no em va convèncer gaire.",
+        "description3": "A l'estiu de 2023, vaig participar al Menorca Summer Camp de Leagues of Code, on vaig aprendre HTML i CSS.",
+        "description4": "Des de llavors, he continuat i segueixo aprenent pel meu compte, gràcies als cursos de @soydalto i @midudev."
+    },
+
+    "skills": {
+        "title": "<!-- HABILITATS -->",
+        "description": "Fins ara, he adquirit els coneixements següents gràcies als cursos de @soydalto i @midudev. El meu objectiu és continuar aprenent per convertir-me en un desenvolupador web full-stack."
+    },
+
+    "projects": {
+        "title": "<!-- PROJECTES -->",
+        "description1": "Un dels meus projectes més destacats ha estat la modernització de la pàgina web del meu club d'atletisme. Aquest projecte em va permetre aprendre a comprometre'm amb una tasca i a esforçar-me per donar el millor de mi.",
+        "description2": "A més, he desenvolupat aquest mateix portafoli, aplicant i consolidant els meus coneixements actuals en desenvolupament web per mostrar les meves habilitats i experiències."
+    },
+
+    "courses": {
+        "title": "<!-- CURSOS -->",
+        "description": "Els següents materials són cursos que m'han ajudat a adquirir els coneixements fins ara."
     }
 }

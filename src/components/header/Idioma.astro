@@ -9,6 +9,11 @@ const { t } = Astro.props;
 <span>
     <p>{t.header.language}</p>
     <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#00000000" stroke-width="1.872"><path d="M0 0h24v24H0z"/><path d="M12 6v12m0 0 5-5m-5 5-5-5" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <ul>
+        <li><a href="/">ES</a></li>
+        <li><a href="/en">EN</a></li>
+        <li><a href="/cat">CA</a></li>
+    </ul>
 </span>
 
 <style>
@@ -19,11 +24,59 @@ const { t } = Astro.props;
         background-color: #fff;
         width: 65px;
         height: 30px;
-        border-radius: 100px;
+        border-radius: 15px;
+
+        position: relative;
+        transition: all .1s ease-in-out;
+        & ul {
+            list-style: none;
+            text-align: center;
+            width: 65px;
+            border-radius: 15px;
+            position: absolute;
+            top: 1px;
+            background-color: #fff;
+            color: #000;
+            padding: 10px 0;
+
+            height: 0px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            visibility: hidden;
+            opacity: 0;
+            height: 0px;
+            overflow: hidden;
+            transition: height 1s ease-in-out, opacity .1s ease-in-out, visibility .1s ease-in-out;
+
+
+
+
+            transition: all .3s ease-in-out;
+
+            & a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
     }
 
     span:hover {
-        transform: scale(1.1);
+        & ul {
+            visibility: visible;
+            opacity: 1;
+            height: 105px;
+
+            & a {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    ul:hover {
+        display: block;
+        height: fit-content;
     }
 
     p {

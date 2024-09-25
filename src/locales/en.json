@@ -1,8 +1,38 @@
 {
     "header": {
-        "experiencia": "EXPERIENCE",
-        "habilidades": "SKILLS",
-        "proyectos": "PROJECTS",
-        "cursos": "COURSES"
+        "experience": "EXPERIENCE",
+        "skills": "SKILLS",
+        "projects": "PROJECTS",
+        "courses": "COURSES",
+        "language": "EN"
+    },
+
+    "main": {
+        "title": "Hi! I'm Izan Sánchez. />",
+        "description": "I am 14 years old, and I am passionate about web development. I am always looking for new ways to improve and expand my knowledge, so I can apply it to new projects."
+    },
+
+    "experience": {
+        "title": "<!-- EXPERIENCE -->",
+        "description1": "Although I don't have professional experience yet, I'm only 15 years old, I have collaborated with my athletics club by developing a more modern and useful website for them, which you can see in the projects section.",
+        "description2": "At the end of 2022, I started researching how websites are built, and I tried WordPress, but it didn't convince me too much.",
+        "description3": "In the summer of 2023, I participated in the Menorca Summer Camp at Leagues of Code, where I learned HTML and CSS.",
+        "description4": "Since then, I have continued learning on my own, thanks to the courses by @soydalto and @midudev."
+    },
+
+    "skills": {
+        "title": "<!-- SKILLS -->",
+        "description": "So far, I have acquired the following knowledge thanks to the courses by @soydalto and @midudev. My goal is to keep learning to become a full-stack web developer."
+    },
+
+    "projects": {
+        "title": "<!-- PROJECTS -->",
+        "description1": "One of my most outstanding projects has been the modernization of my athletics club's website. This project taught me to commit to a task and strive to give my best.",
+        "description2": "In addition, I have developed this portfolio itself, applying and consolidating my current web development knowledge to showcase my skills and experiences."
+    },
+
+    "courses": {
+        "title": "<!-- COURSES -->",
+        "description": "The following materials are courses that have helped me gain the knowledge I have so far."
     }
 }
