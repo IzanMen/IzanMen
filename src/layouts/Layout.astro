@@ -3,11 +3,12 @@ interface Props {
 
 }
 
-const {  } = Astro.props;
+import { ViewTransitions } from 'astro:transitions';	
+
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Portafolio Web de Izan Sánchez, un joven apasionado por el desarrollo web. Descubre mis proyectosy habilidades">		
@@ -15,6 +16,7 @@ const {  } = Astro.props;
 		<link rel="icon" type="image/webp" href="/favicon.webp" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Izan Sánchez, Desarrollador Frontend en Menorca, Islas Baleares</title>
+		<ViewTransitions />
 	</head>
 	<body>
 		<slot />
