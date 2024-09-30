@@ -18,7 +18,7 @@ import { ViewTransitions } from 'astro:transitions';
 		<title>Izan Sánchez, Desarrollador Frontend en Menorca, Islas Baleares</title>
 		<ViewTransitions />
 	</head>
-	<body>
+	<body class="light-mode">
 		<slot />
 	</body>
 </html>
@@ -26,21 +26,16 @@ import { ViewTransitions } from 'astro:transitions';
 	@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 	@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-	* {
-		box-sizing: border-box;
-		margin: 0;
-		padding: 0;
-	}
-		
-	html {
-		scroll-behavior: smooth;
-	}
-	
-	body {
-		background: linear-gradient(#221133, #000011 500px);
-		color: #fff;
-		font-size: .9rem;
+	:root {
+		--background: linear-gradient(#221133, #000011 500px);
+		--background-color: #000;
+		--color: #fff;
+		--color-2: #fffa;
+		--bento: #2138; 
+		--experiencia-opacity: 0.19;
+
 		font-family: "Inter", sans-serif;
+		font-size: .9rem;
 
 		h1 {
 			font-weight: 400;
@@ -66,4 +61,29 @@ import { ViewTransitions } from 'astro:transitions';
 			font-family: "Inter", sans-serif;
 		}
 	}
+
+	body.light-mode {
+		--background: linear-gradient(#c8a2c8, #b0b8ff 500px);
+		--background-color: #fff;
+		--color: #000;
+		--color-2: #000a;
+		--bento: #fff8;
+		--experiencia-opacity: .6;
+	}
+
+	body {
+		background: var(--background);
+		color: var(--color);
+	}
+
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+		
+	html {
+		scroll-behavior: smooth;
+	}
+		
 </style>
