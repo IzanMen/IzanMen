@@ -28,6 +28,7 @@ Llevo casi dos años inmerso en el fascinante mundo del desarrollo frontend. Cad
 ### 🌟 Proyectos Destacados
 
 - 🏃‍♂️ **[Lô Esport](https://loesport.vercel.app)**: Colaborando en el desarrollo de la nueva página web para este club de atletismo, aplicando mis conocimientos en HTML, CSS y JavaScript para crear una experiencia de usuario más moderna y dinámica.
+- **[Porfolio Personal](https://izanmen-dev.vercel.app)**: Creando un porfolio personal para mostrar mis habilidades i aplicar mis conocimientos en HTML, CSS, Javascript y Astro.
 
 ### 📚 Aprendizaje Continuo
 
