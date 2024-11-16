@@ -80,4 +80,17 @@ const { t } = Astro.props;
         grid-template-columns: repeat(10, 1fr);
         gap: 15px;
     }
+
+    @media screen and (max-width: 1057px) {
+        section {
+            width: 95%;
+            padding-top: 0;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        span {
+            top: 50px;
+        }
+    }
 </style>

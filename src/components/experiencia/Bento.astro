@@ -18,6 +18,7 @@ const { size } = Astro.props;
         border-radius: 15px;
         padding: 20px;
         color: var(--color-2);
+        text-align: left;
     }
 
     .bento-small {
@@ -26,6 +27,20 @@ const { size } = Astro.props;
 
     .bento-big {
         grid-column: span 6;
+    }
+
+    @media screen and (max-width: 1057px) {
+        .bento {
+            height: auto;
+        }
+        
+        .bento-small {
+            grid-column: span 10;
+        }
+
+        .bento-big {
+            grid-column: span 10;
+        }
     }
 
 </style>

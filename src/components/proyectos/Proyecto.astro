@@ -38,6 +38,7 @@ const { img, github, website, technologies } = Astro.props;
 
         & img {
             height: 100%;
+            object-fit: cover;
         }
     }
 
@@ -62,4 +63,13 @@ const { img, github, website, technologies } = Astro.props;
         gap: 5px;
     }
 
+    @media screen and (max-width: 1057px) {
+        .proyecto {
+            flex-direction: column;
+
+            & img {
+                width: 300px;
+            }
+        }
+    }
 </style>

@@ -62,4 +62,15 @@ const { t } = Astro.props;
 		gap: 10px;
 		width: fit-content;
 	}
+
+	@media screen and (max-width: 1057px) {
+		header {
+			width: 90%;
+			justify-content: end;
+		}
+
+		.nav {
+			display: none;
+		}
+	}
 </style>
