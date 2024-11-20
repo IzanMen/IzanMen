@@ -9,8 +9,10 @@ const { t } = Astro.props;
 ---
 
 <footer>
-    <p>© 2024 Izan Sánchez</p>
-    <Social icon="GitHub-white" link='https://github.com/IzanMen/'/>
+    <div>
+        <p>© 2024 Izan Sánchez</p>
+        <Social icon="GitHub-white" link='https://github.com/IzanMen/'/>
+    </div>
     <ul>
         <li><a href="#experiencia">{t.header.experience}</a></li>  
         <li><a href="#habilidades">{t.header.skills}</a></li>
@@ -35,7 +37,17 @@ const { t } = Astro.props;
         margin-top: 35px;
     }
 
+    div {
+        display: flex;
+        flex-grow: 1;
+        padding-right: 1px;
+        justify-content: space-between;
+    }
+
     ul {
+        flex-grow: 1;
+        justify-content: right;
+        display: flex;
         list-style: none;
         display: flex;
         gap: 15px;
@@ -45,6 +57,17 @@ const { t } = Astro.props;
             text-decoration: none;
             color: var(--color);
             font-size: .8rem;
+        }
+    }
+
+    @media screen and (max-width: 1057px) {
+        footer {
+            flex-direction: column-reverse;
+        }
+
+        div {
+            gap: 10px;
+            flex-direction: row-reverse;
         }
     }
 </style>

@@ -12,7 +12,7 @@ const { t } = Astro.props;
     <h2>{t.projects.title}</h2>
     <div class="proyectos-content">
         <Proyecto 
-            img="loesport-captura.png"
+            img="loesport-captura.webp"
             github="https://github.com/IzanMen/loesport"   
             website="https://loesport.vercel.app" 
             technologies="HTML,CSS,JS"
@@ -20,7 +20,7 @@ const { t } = Astro.props;
             <p>{t.projects.description1}</p>
         </Proyecto>
         <Proyecto 
-            img="porfolio-captura.png"
+            img="porfolio-captura.webp"
             github="https://github.com/IzanMen/IzanMen"   
             website="https://izanmen-dev.vercel.app" 
             technologies="HTML,CSS,JS,ASTRO"
@@ -52,13 +52,20 @@ const { t } = Astro.props;
             font-weight: 500;
         }
     }
-
+    
     @media screen and (max-width: 1057px) {
         section {
             width: 95%;
             padding-top: 0;
             margin-top: 100px;
             text-align: center;
+        }
+
+        .proyectos-content {
+            & p {
+                font-size: 1.1rem;
+                text-align: left;
+            }
         }
     }
 </style>
