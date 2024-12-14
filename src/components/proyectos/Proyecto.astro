@@ -53,6 +53,8 @@ const { img, github, website, technologies } = Astro.props;
     .proyecto-content__social {
         margin-top: 8px;
         display: flex;
+        flex-wrap: wrap;
+        width: 100%;
         align-items: center;
         gap: 6px;
     }
@@ -66,10 +68,42 @@ const { img, github, website, technologies } = Astro.props;
     @media screen and (max-width: 1057px) {
         .proyecto {
             flex-direction: column;
+            height: 420px;
+            background-color: transparent;
+            box-shadow: none;
+            align-items: center;
+            border: none;
 
             & img {
-                width: 300px;
+                width: 500px;
+                height: 250px;
+                max-width: 100%;
             }
+
+            & p {
+                font-size: 1.1rem;
+            }
+        }
+
+        .proyecto-content {
+            background-color: #ccc;
+            border-radius: 20px;
+            padding: 20px 30px;
+            box-shadow: 4px 4px 10px 2px #aaa;
+
+            flex-direction: column;
+            gap: 0;
+
+            & .proyecto-content__technologies {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 563px) {
+        .proyecto-content {
+            border-radius: 0;
+            box-shadow: 0px 4px 10px 2px #aaa;
         }
     }
 </style>

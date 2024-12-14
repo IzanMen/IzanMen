@@ -42,4 +42,31 @@ const { t } = Astro.props;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    @media screen and (max-width: 1300px) {
+        .cursos-content {
+            justify-items: center;
+        }
+    }
+
+    @media screen and (max-width: 1057px) {
+        section {
+            width: 80%;
+            padding-top: 0;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .cursos-content {
+            grid-template-columns: repeat(1, 1fr);
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        .cursos-content {
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+        }
+    }
 </style>
