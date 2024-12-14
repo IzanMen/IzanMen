@@ -8,9 +8,20 @@ import { ViewTransitions } from 'astro:transitions';
 ---
 
 <!doctype html>
-<html lang="">
+<html>
 	<head>
-		<script defer src="https://cloud.umami.is/script.js" data-website-id="520ca694-08d5-4b2a-8b0d-67ad891b2468"></script>
+		<!-- Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-VFDVRQ6S68"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'G-VFDVRQ6S68');
+		</script>
+	
+		<!-- Umami Analytics -->
+		<script defer src="https://cloud.umami.is/script.js" data-website-id="520ca694-08d5-4b2a-8b0d-67ad891b2468"></script>		
+	
 		<meta charset="UTF-8" />
 		<meta name="description" content="Portafolio Web de Izan Sánchez, un joven apasionado por el desarrollo web. Descubre mis proyectosy habilidades">		
 		<meta name="viewport" content="width=device-width" />
