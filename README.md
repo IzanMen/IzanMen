@@ -2,8 +2,6 @@
 
 ## 🚀 Desarrollador Frontend | 15 años | Menorca, España 🏝️
 
-Soy un apasionado desarrollador frontend de 15 años, embarcado en un emocionante viaje de aprendizaje y creación en el mundo del desarrollo web.
-
 ### 🌟 Sobre mí
 
 - 🎓 Estudiante y autodidacta en desarrollo web
