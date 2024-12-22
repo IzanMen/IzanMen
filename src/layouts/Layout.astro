@@ -10,22 +10,6 @@ import { ViewTransitions } from 'astro:transitions';
 <!doctype html>
 <html>
 	<head>
-		<!-- Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-VFDVRQ6S68"></script>
-		<script>
-			// Asegurar que TypeScript reconoce la propiedad dataLayer
-			(window as any).dataLayer = (window as any).dataLayer || [];
-			
-			// Declarar gtag para TypeScript
-			function gtag(...args: any[]): void {
-				(window as any).dataLayer.push(args);
-			}
-			
-			// Inicializar Google Analytics
-			gtag('js', new Date());
-			gtag('config', 'G-VFDVRQ6S68');
-		</script>
-
 		<!-- Umami Analytics -->
 		<script defer src="https://cloud.umami.is/script.js" data-website-id="520ca694-08d5-4b2a-8b0d-67ad891b2468"></script>		
 	
