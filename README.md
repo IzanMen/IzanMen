@@ -7,7 +7,7 @@
 - 🎓 Estudiante y autodidacta en desarrollo web
 - 🌱 Actualmente mejorando mis habilidades en **JavaScript** y aprendiendo **Astro**
 - 🏗️ Colaborando en la construcción de la nueva página web para el club de atletismo [Lô Esport](https://loesport.vercel.app)
-- 🌴 Viviendo y codificando desde la hermosa isla de Menorca
+- 🌴 Viviendo y codificando desde la isla de Menorca
 
 ### 💻 Mis Habilidades Técnicas
 
@@ -45,4 +45,4 @@ Estoy constantemente explorando nuevas tecnologías y mejorando mis habilidades.
 
 ---
 
-⭐️ ¡Gracias por visitar mi perfil! No olvides darle una estrella a los repositorios que encuentres interesantes.
+⭐️ ¡Gracias por visitar mi perfil!
