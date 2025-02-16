@@ -4,10 +4,10 @@
 
 ### 🌟 Sobre mí
 
-- 🎓 Estudiante y autodidacta en desarrollo web
-- 🌱 Actualmente mejorando mis habilidades en **JavaScript** y aprendiendo **Astro**
-- 🏗️ Colaborando en la construcción de la nueva página web para el club de atletismo [Lô Esport](https://loesport.vercel.app)
-- 🌴 Viviendo y codificando desde la isla de Menorca
+- 🎓 Estudiante de ESO y autodidacta en desarrollo web
+- 🌱 Actualmente mejorando mis habilidades en **JavaScript** y **Astro**
+- 🏗️ Creando un ecommerce con Wordpress para Stefano y Irene [Is Animal Guide](https://isanimalguide.com)
+- 🏗️ Desarrollando la página web de DJ Javilon [DJ Javilon](https://javilondj.com)
 
 ### 💻 Mis Habilidades Técnicas
 
@@ -21,12 +21,14 @@
 
 ### 🚀 Mi Viaje en el Desarrollo Web
 
-Llevo casi dos años inmerso en el fascinante mundo del desarrollo frontend. Cada día es una nueva oportunidad para aprender, crecer y superar desafíos. Mi pasión por la tecnología y el diseño me impulsa a crear experiencias web atractivas y funcionales.
+Tengo dos años de experiencia en desarrollo frontend. Me interesa la tecnología y el diseño, y disfruto creando experiencias web atractivas y funcionales mientras sigo aprendiendo y mejorando.
 
 ### 🌟 Proyectos Destacados
 
-- 🏃‍♂️ **[Lô Esport](https://loesport.vercel.app)**: Colaborando en el desarrollo de la nueva página web para este club de atletismo, aplicando mis conocimientos en HTML, CSS y JavaScript para crear una experiencia de usuario más moderna y dinámica.
-- **[Porfolio Personal](https://izanmen-dev.vercel.app)**: Creando un porfolio personal para mostrar mis habilidades i aplicar mis conocimientos en HTML, CSS, Javascript y Astro.
+- 🏃‍♂️ **[Lô Esport](https://loesport.vercel.app)**: He creado la nueva página web para este club de atletismo, aplicando mis conocimientos en HTML, CSS y JavaScript para crear una experiencia de usuario más moderna y dinámica.
+- **[Porfolio Personal](https://izanmen-dev.vercel.app)**: He desarrollado un porfolio personal para mostrar mis habilidades i aplicar mis conocimientos en HTML, CSS, Javascript y Astro.
+- **[Is Animal Guide](https://isanimalguide.com)**: Actualmente estoy creando un ecommerce para impulsar el negocio de Steffano i Irene. Mejorando mis habilidades en Wordpress i Woocomerce.
+- **[DJ Javilon](https://javilondj.com)**: Además, estoy desarrollando una página web para Javi, un DJ en Menorca. 
 
 ### 📚 Aprendizaje Continuo
 
