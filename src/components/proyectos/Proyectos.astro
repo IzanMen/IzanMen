@@ -12,12 +12,28 @@ const { t } = Astro.props;
     <h2>{t.projects.title}</h2>
     <div class="proyectos-content">
         <Proyecto 
-            img="loesport-captura.webp"
-            github="https://github.com/IzanMen/loesport"   
-            website="https://loesport.vercel.app" 
-            technologies="HTML,CSS,JS"
+            img="promenorca-captura.webp"
+            github="https://github.com/IzanMen/promenorca"   
+            website="https://promenorca.com" 
+            technologies="HTML,CSS,JS,ASTRO"
         >
             <p>{t.projects.description1}</p>
+        </Proyecto>
+        <Proyecto 
+            img="loesport-captura.webp"
+            github="https://github.com/IzanMen/loesport"   
+            website="https://loesport.es" 
+            technologies="HTML,CSS,JS"
+        >
+            <p>{t.projects.description2}.</p>
+        </Proyecto>
+        <Proyecto 
+            img="isanimal-captura.webp"
+            github=""   
+            website="https://isanimalguide.com" 
+            technologies="WordPress"
+        >
+            <p>{t.projects.description3}.</p>
         </Proyecto>
         <Proyecto 
             img="porfolio-captura.webp"
