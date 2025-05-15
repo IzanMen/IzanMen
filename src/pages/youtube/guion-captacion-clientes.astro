@@ -1,0 +1,132 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/header/Header.astro';
+import Main from '../../components/main/Main.astro';
+import Experiencia from '../../components/experiencia/Experiencia.astro';
+import Habilidades from '../../components/habilidades/Habilidades.astro';
+import Proyectos from '../../components/proyectos/Proyectos.astro';
+import Cursos from '../../components/cursos/Cursos.astro';
+import Footer from '../../components/footer/Footer.astro';
+
+import { getTranslations } from '../../utils/i18n';
+
+const locale = 'es';
+const t = getTranslations(locale);
+---
+
+<Layout title="Guión de Captación de Clientes por Teléfono">
+	<h1>¡Gracias por ver el video! Aquí puedes conseguir el guión de llamadas que mencioné.</h1>
+    <p>Solo tienes que dejar tu email y te lo envío en cuanto pueda 😊. ¡Gracias!</p>
+    <form
+        action="https://formspree.io/f/mwpoazbj"
+        method="POST"
+    >
+        <input type="email" name="email" placeholder="Déjame tu email por aquí..." />
+        <button type="submit">Enviar</button>
+    </form>
+    <div>
+        <p>Y ahora que formas parte de esta pequeña comunidad de emprendedores, déjame recordarte algunas cosas importantes que te conté en el video:</p>
+        <h2>Este guión no es para que lo copies palabra por palabra</h2>
+        <p>Te lo envío para que veas cómo lo hago yo y tengas una base sobre la que construir tu propio guion, adaptado a lo que tú vendes y a quién se lo vendes.</p>
+        <h2>Consejo 1: empieza simple</h2>
+        <p>No necesitas sonar como un vendedor profesional. Solo tienes que presentarte con claridad, explicar qué haces y por qué puede interesarle a la persona que llamas. Sin más.</p>
+        <h2>Consejo 2: la clave es hacer la primera llamada</h2>
+        <p>Puedes pasarte días ajustando el guion, pero nada te va a enseñar más que ponerte manos a la obra. La primera llamada da miedo, pero después todo fluye.</p>
+        <h2>Consejo 3: no te rayes si no sale perfecto</h2>
+        <p>No hay una forma ideal de hacerlo. Cada conversación es distinta, y cuanto antes lo aceptes, más tranquilo vas a estar.</p>
+        <p>Este camino es largo, y es mucho más fácil si compartimos lo que aprendemos entre todos. Así que si este guion te ayuda o si tú descubres algo que funciona, escríbeme y cuéntamelo. Quiero que esto sea una conversación real, no solo un email.</p>
+        <p>Gracias por confiar en mí y nos vemos en el próximo video,</p>
+        <p>Izan</p>
+    
+    </div>
+</Layout>
+
+<style>
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 80px;
+        max-width: 900px;
+        line-height: 3rem;
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    form {
+        margin-top: 60px;
+        border-radius: 10px;
+        width: 800px;
+        height: fit-content;
+        background-color: #0004;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 95%;
+    }
+
+    form input {
+        background-color: #fff5;
+        border: none;
+        padding: 15px 22px;
+        font-size: 1.2rem;
+		font-family: "Itim", cursive;
+        border-radius: 5px;
+    }
+
+    form input::placeholder {
+        color: #fffa;
+        font-family: 'Itim', cursive;
+    }
+
+    form input:focus {
+        outline: none;
+        background-color: #fffa;
+    }
+
+    form button {
+        width: fit-content;
+        padding: 12px 30px;
+        background-color: #5E9B5A;
+        font-family: 'Itim', cursive;
+        color: #fff;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 5px;
+    }
+
+    form button:hover {
+        background-color: #fffa;
+    }
+
+    @media screen and (max-width: 700px) {
+        form {
+            padding: 20px;
+        }
+    }
+
+    div {
+        margin-top: 100px;
+        height: fit-content;
+        width: 800px;
+        max-width: 95%;
+        margin-bottom: 100px;
+    }
+
+    div h2 {
+        margin-top: 40px;
+        font-size: 1.8rem;
+    }
+
+    div p {
+        font-size: 1.3rem;
+        margin-top: 10px;
+    }
+</style>
