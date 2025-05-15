@@ -1,38 +1,35 @@
 {
     "header": {
-        "experience": "EXPERIENCIA",
-        "skills": "HABILIDADES",
-        "projects": "PROYECTOS",
-        "courses": "CURSOS",
-        "language": "ES"
+      "experience": "EXPERIENCIA",
+      "skills": "HABILIDADES",
+      "projects": "PROYECTOS",
+      "courses": "CURSOS",
+      "language": "ES"
     },
-
     "main": {
-        "title": "¡Hola! Soy Izan Sánchez. />",
-        "description": "Tengo 14 años y me apasiona el desarrollo web. Siempre estoy buscando nuevas formas de mejorar y ampliar mis conocimientos, para así, poder aplicarlos en nuevos proyectos."
+      "title": "¡Hola! Soy Izan Sánchez. />",
+      "description": "Tengo 15 años, soy emprendedor y desarrollador web. Estoy creando Pro Menorca, mi primer proyecto real para ayudar a los restaurantes a mejorar su presencia online. Me apasiona aprender, construir cosas útiles y compartir todo este proceso en mi canal de YouTube."
     },
-
     "experience": {
-        "title": "<!-- EXPERIENCIA -->",
-        "description1": "Aunque todavía no tengo experiencia profesional, solo tengo 15 años, he colaborado con mi club de atletismo desarrollandoles una página web más moderna y útil, la cual puedes ver en la sección de proyectos.",
-        "description2": "A finales de 2022, empecé a investigar cómo se crean las webs y probé WordPress, pero no me convenció demasiado.",
-        "description3": "En el verano de 2023, participé en el Menorca Summer Camp de Leagues of Code, donde aprendí HTML y CSS.",
-        "description4": "Desde entoces, he continuado y sigo aprendiendo por mi cuenta, gracias a los cursos de @soydalto y @midudev."
+      "title": "<!-- EXPERIENCIA -->",
+      "description1": "Estoy creando mi primer proyecto real: Pro Menorca, una iniciativa donde diseño y desarrollo webs personalizadas para restaurantes de mi isla. Aunque aún no tengo experiencia profesional, estoy aprendiendo directamente de la práctica real, hablando con clientes y creando productos que resuelven problemas.",
+      "description2": "También colaboré con mi club de atletismo desarrollándoles una página web más moderna y funcional, la cual puedes ver en la sección de proyectos. Además de desarrollar con Stefano y Irene, su tienda online para su negocio, llamado Is Animal Guide, en Italia.",
+      "description3": "En 2022 empecé a investigar cómo se crean las webs y probé WordPress, aunque pronto descubrí que prefería aprender a programarlas desde cero.",
+      "description4": "En verano de 2023 participé en el Menorca Summer Camp de Leagues of Code, donde aprendí HTML y CSS. Desde entonces, sigo aprendiendo por mi cuenta gracias a los cursos de @soydalto, @midudev y @mouredev, y aplicando todo en mis proyectos."
     },
-
     "skills": {
-        "title": "<!-- HABILIDADES -->",
-        "description": "Hasta ahora, he adquirido los siguientes conocimientos gracias a los cursos de @soydalto y de @midudev. Mi objetivo es seguir aprendiendo para convertirme en un desarrollador web full-stack."
+      "title": "<!-- HABILIDADES -->",
+      "description": "Gracias a la formación autodidacta y los cursos de @soydalto, @midudev y @mouredev, he adquirido habilidades en desarrollo web frontend (HTML, CSS, JavaScript), Git, y diseño responsive. También he aprendido a hablar con clientes, vender ideas y gestionar proyectos reales como Pro Menorca."
     },
-
     "projects": {
-        "title": "<!-- PROYECTOS -->",
-        "description1": "Uno de mis proyectos más destacados ha sido la modernización de la página web de mi club de atletismo. Este proyecto me permitió aprender a comprometerme con una tarea y a esforzarme para dar lo mejor de mí.",
-        "description2": "Además, he desarrollado este mismo portafolio, aplicando y consolidando mis conocimientos actuales en desarrollo web para mostrar mis habilidades y experiencias."
+      "title": "<!-- PROYECTOS -->",
+      "description1": "Pro Menorca es mi proyecto actual. Es una marca creada por mí para ofrecer webs profesionales y simples a restaurantes locales. Yo me encargo del diseño, desarrollo, comunicación y promoción. Es un proyecto donde aplico todo lo que sé, y donde aprendo lo que aún me falta.",
+      "description2": "Otro proyecto importante fue la web de mi club de atletismo. Este fue uno de mis primeros encargos reales, y me ayudó a desarrollar constancia, responsabilidad y visión de usuario.",
+      "description3": "Además, desarrollé este mismo portafolio para mostrar de forma clara quién soy, qué estoy aprendiendo y hacia dónde quiero llegar."
     },
-
     "courses": {
-        "title": "<!-- CURSOS -->",
-        "description": "Los siguientes materiales son cursos que me han ayudado a conseguir los conocimientos adquiridos hasta ahora."
+      "title": "<!-- CURSOS -->",
+      "description": "Estos cursos me han permitido adquirir las bases del desarrollo web y entender cómo funcionan los proyectos reales. Actualmente sigo formándome mientras aplico lo aprendido en mis propios proyectos."
     }
-}
+  }
+  
