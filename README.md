@@ -4,10 +4,9 @@
 
 ### 🌟 Sobre mí
 
-- 🎓 Estudiante y autodidacta en desarrollo web
-- 🌱 Actualmente mejorando mis habilidades en **JavaScript** y aprendiendo **Astro**
-- 🏗️ Colaborando en la construcción de la nueva página web para el club de atletismo [Lô Esport](https://loesport.vercel.app)
-- 🌴 Viviendo y codificando desde la isla de Menorca
+- 🎓 Estudiante de ESO y autodidacta en desarrollo web
+- 🌱 Actualmente aprendiendo **FasAPI** y **SQL**
+- 🏗️ Creando un ecommerce con Wordpress para Stefano y Irene: [Is Animal Guide](https://isanimalguide.com)
 
 ### 💻 Mis Habilidades Técnicas
 
@@ -21,20 +20,23 @@
 
 ### 🚀 Mi Viaje en el Desarrollo Web
 
-Llevo casi dos años inmerso en el fascinante mundo del desarrollo frontend. Cada día es una nueva oportunidad para aprender, crecer y superar desafíos. Mi pasión por la tecnología y el diseño me impulsa a crear experiencias web atractivas y funcionales.
+Tengo dos años de experiencia en desarrollo frontend. Me interesa la tecnología y el diseño, y disfruto creando experiencias web atractivas y funcionales mientras sigo aprendiendo y mejorando.
 
 ### 🌟 Proyectos Destacados
 
-- 🏃‍♂️ **[Lô Esport](https://loesport.vercel.app)**: Colaborando en el desarrollo de la nueva página web para este club de atletismo, aplicando mis conocimientos en HTML, CSS y JavaScript para crear una experiencia de usuario más moderna y dinámica.
-- **[Porfolio Personal](https://izanmen-dev.vercel.app)**: Creando un porfolio personal para mostrar mis habilidades i aplicar mis conocimientos en HTML, CSS, Javascript y Astro.
+- 🏃‍♂️ **[Lô Esport](https://loesport.vercel.app)**: He creado la nueva página web para este club de atletismo, aplicando mis conocimientos en HTML, CSS y JavaScript para crear una experiencia de usuario más moderna y dinámica.
+- **[Porfolio Personal](https://izanmen-dev.vercel.app)**: He desarrollado un porfolio personal para mostrar mis habilidades i aplicar mis conocimientos en HTML, CSS, Javascript y Astro.
+- **[Is Animal Guide](https://isanimalguide.com)**: También he creado un ecommerce para impulsar el negocio de Steffano i Irene. Mejorando mis habilidades en Wordpress.
+- **[DJ Javilon](https://javilondj.com)**: Además, he desarrollado una página web para Javi, un DJ en Menorca. 
+- **[Pro Menorca](https://promenorca.com)**: Actualmente estoy trabajando en un proyecto personal llamado Pro Menorca, donde quiero ofrecer páginas web a restaurantes a través de una suscripción.
 
 ### 📚 Aprendizaje Continuo
 
-Estoy constantemente explorando nuevas tecnologías y mejorando mis habilidades. Actualmente, estoy enfocado en:
+Estoy constantemente explorando nuevas tecnologías y mejorando mis habilidades. Actualmente, estoy enfocado en aprender:
 
-- Profundizar mis conocimientos en JavaScript.
-- Dominar el framework Astro para crear sitios web más rápidos y eficientes.
-- Explorar las mejores prácticas en diseño responsivo y accesibilidad web.
+- Como crear una API con FastAPI
+- Dominar Python.
+- Aprender SQL para poder trabajar con bases de datos.
 
 ### 📫 Cómo contactarme
 
