@@ -1,32 +1,30 @@
 {
-    "header": {
-      "experience": "EXPERIENCE",
-      "skills": "SKILLS",
-      "projects": "PROJECTS",
-      "courses": "COURSES",
-      "language": "EN"
-    },
-    "main": {
-      "title": "Hi! I'm Izan Sánchez. />",
-      "description": "I'm 15 years old, a young entrepreneur and web developer. I'm building Pro Menorca, my first real project to help local restaurants improve their online presence. I'm passionate about learning, creating useful things, and sharing my journey on my YouTube channel."
-    },
-    "experience": {
-      "title": "<!-- EXPERIENCE -->",
-      "description1": "In 2022, I started exploring how websites are made. I initially tried WordPress but quickly realized I wanted to learn how to build websites from scratch through programming.",
-      "description2": "In the summer of 2023, I joined the Menorca Summer Camp by Leagues of Code, where I learned HTML and CSS. Since then, I’ve continued to learn on my own through courses by @soydalto, @midudev, and @mouredev, and by applying everything in real projects.",
-      "description3": "I built a modern and functional website for my athletics club, which you can check out in the Projects section. I also created an online store for Stefano and Irene’s small business, Is Animal Guide, in Italy.",
-      "description4": "Right now, I’m working on Pro Menorca, a personal project where I design and develop custom websites for restaurants on my island. While I don’t have professional experience yet, I’m learning by doing—talking to clients, solving real problems, and building products from scratch."
-    },
-    "skills": {
-      "title": "<!-- SKILLS -->",
-      "description": "Thanks to self-learning and online courses by @soydalto, @midudev, and @mouredev, I’ve gained skills in frontend web development (HTML, CSS, JavaScript), Git, and responsive design. I also have backend knowledge with Python and FastAPI, and I’m currently learning SQL to work with databases. I’ve also learned how to talk to clients, pitch ideas, and manage real projects like Pro Menorca."
-    },
-    "projects": {
-      "title": "<!-- PROJECTS -->",
-      "description1": "Pro Menorca is my main project. It's a brand I created to offer simple, professional websites for local restaurants. I handle everything—design, development, communication, and marketing. It’s where I put all my skills to the test and keep learning what I still need.",
-      "description2": "Another key project was the website for my athletics club. It was one of my first real assignments and taught me responsibility, consistency, and how to focus on user needs.",
-      "description3": "I also built the Is Animal Guide online store for a small business in Italy, applying my knowledge in design and web development.",
-      "description4": "Finally, I developed this very portfolio site to clearly show who I am, what I’m learning, and where I’m heading."
-    }
+  "header": {
+    "experience": "EXPERIENCE",
+    "skills": "SKILLS",
+    "projects": "PROJECTS",
+    "language": "EN"
+  },
+  "main": {
+    "title": "Hi! I'm Izan Sánchez. />",
+    "description": "I'm not much of a talker... so I prefer to let my code speak for me. I'm 15 years old and a couple of years ago I became obsessed with building things on the internet. I taught myself HTML, CSS, JavaScript, Python, SQL, FastAPI and WordPress, and every day I try to improve a little more."
+  },
+  "experience": {
+    "title": "<!-- EXPERIENCE -->",
+    "description1": "In 2022, I started exploring how websites are made. I tried WordPress, but quickly realized I wanted to understand how to build them from scratch with code.",
+    "description2": "In the summer of 2023, I joined the Menorca Summer Camp by Leagues of Code, where I learned HTML and CSS. Since then, I’ve been learning on my own through content by creators like @soydalto, @midudev, and @mouredev.",
+    "description3": "I helped my local athletics club by creating a modern and functional website (you can see it in the projects section). I also helped Stefano and Irene develop their online store 'Is Animal Guide' in Italy.",
+    "description4": "Right now, I’m working on Pro Menorca, a project where I design custom websites for restaurants in my island. I don’t have professional experience yet, but I’m learning in the best way I know: by building real things and solving real problems with code."
+  },
+  "skills": {
+    "title": "<!-- SKILLS -->",
+    "description": "Thanks to self-taught learning and courses from @soydalto, @midudev and @mouredev, I’ve gained frontend skills (HTML, CSS, JavaScript), Git, and responsive design. I also use Python and FastAPI for backend, and I’m currently learning SQL for databases. Step by step, I’m also learning how to plan, present and carry out my own projects from start to finish."
+  },
+  "projects": {
+    "title": "<!-- PROJECTS -->",
+    "description1": "Pro Menorca is my current project: a brand offering simple and professional websites for local restaurants.",
+    "description2": "One of my first real jobs was creating the website for my athletics club. It taught me discipline, user thinking, and responsibility.",
+    "description3": "I also developed the online store 'Is Animal Guide' for a small business in Italy, using my WordPress skills.",
+    "description4": "And this very portfolio is another project: a way to show who I am, what I’m learning, and where I want to go next."
   }
-  
+}
