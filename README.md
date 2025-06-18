@@ -28,7 +28,6 @@ Tengo dos años de experiencia en desarrollo frontend. Me interesa la tecnologí
 - **[Porfolio Personal](https://izanmen-dev.vercel.app)**: He desarrollado un porfolio personal para mostrar mis habilidades i aplicar mis conocimientos en HTML, CSS, Javascript y Astro.
 - **[Is Animal Guide](https://isanimalguide.com)**: También he creado un ecommerce para impulsar el negocio de Steffano i Irene. Mejorando mis habilidades en Wordpress.
 - **[DJ Javilon](https://javilondj.com)**: Además, he desarrollado una página web para Javi, un DJ en Menorca. 
-- **[Pro Menorca](https://promenorca.com)**: Actualmente estoy trabajando en un proyecto personal llamado Pro Menorca, donde quiero ofrecer páginas web a restaurantes a través de una suscripción.
 
 ### 📚 Aprendizaje Continuo
 
